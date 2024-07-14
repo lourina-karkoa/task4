@@ -1,0 +1,837 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    background-color: rgb(83, 81, 81);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    flex-wrap: wrap;
+     box-shadow: 0 3px 5px 2px rgb(83, 81, 81); 
+}
+.navbar .nav1{
+    width: max-content;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left:70px ;
+    transition: 1s;
+    
+
+}
+.navbar .nav1:hover{
+    color:  rgb(161, 241, 247);
+    /* background-color: white; */
+    border-radius: 10px;
+    border-bottom:3px solid #0ef ;
+    animation-name: hov;
+    animation-duration:1s ;
+    animation-timing-function: linear;
+}
+
+
+.navbar .nav2{
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 40px;
+
+}
+.navbar .nav2 a{
+    width: max-content;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    transition: 1s;
+}
+
+.navbar .nav2 a:hover{
+    color:  rgb(161, 241, 247);
+    width: 120px;
+    border-bottom:3px solid #0ef ;
+    border-radius: 10px;    
+    animation-name: hov2;
+    animation-duration:1s ;
+    animation-timing-function: linear;
+
+}
+
+.hero{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-color: rgb(32, 190, 143);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.par-logo{
+    width: 150px;
+    height: 150px;
+    margin-top: 120px;
+    border-radius: 50%;
+    background-color: rgb(41, 41, 99);
+    position: relative;
+}
+.hero .par{
+    font-size: 50px;
+    transition: 1s;
+}
+.hero .par:hover{
+    color: rgb(32, 190, 143) ;
+    background-color: white;
+    border-radius: 10px;
+  
+}
+.hero .logo{
+    width: 150px;
+    height: 175px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 1px;
+    left:4px;
+}
+.star{
+    width: 100px;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+.star::before{
+    content: "";
+    background-color: white;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    right: 80px;
+
+}
+.star::after{
+    content: "";
+    background-color: white;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 80px;
+
+}
+.parg{
+    width: max-content;
+    height: 10px;
+}
+.pag1{
+    width: 100%;
+    height: 100%;
+
+}
+.sec1 p{
+    font-size: 30px;
+   margin: 20px -30px;
+    color: #171036;
+    transition: 1s;
+    
+
+}
+.sec1 p:hover{
+    background-color: #171036;
+    color: white;
+    border-radius: 10px;
+    
+}
+.pag1 .sec1{
+    width: 100px;
+    height: 50px;
+    margin: 20px auto;
+}
+.sec1 .star2{
+    width: 100px;
+    height: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.star2::before{
+    content: "";
+    background-color: #171036;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    right: 80px;
+
+}
+.star2::after{
+    content: "";
+    background-color: #171036;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 80px;
+
+}
+.image1{
+    width: 90%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+
+}
+.image1 div{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.image1 .d1{
+    background-color: rgb(105, 8, 8);
+}
+.image1 .d2{
+    background-color: rgb(8, 105, 81);
+}
+
+.image1 .d3{
+    background-color: black;
+}
+.image1 .d4{
+    background-color: rgb(8, 42, 105);
+}
+.image1 .d5{
+    background-color: rgb(19, 6, 92);
+}
+.image1 .d6{
+    background-color: rgba(224, 132, 132, 0.877);
+}
+.image1 img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.pag2{
+    width: 100%;
+    height: 380px;
+    background-color: rgb(32, 190, 143);
+    color: white;
+     margin-top: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pag2 .par2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: -10px;
+  transition: 1s;
+}
+.pag2 .par2:hover{
+    color:rgb(32, 190, 143) ;
+    background-color: white;
+    border-radius: 10px;
+}
+.pag2 .part1{
+    width: 600px;
+    height: 180px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    flex-wrap: wrap;  
+
+}
+.pag2 .part1 p{
+    width:256px ;
+    height: 200px;
+}
+.pag2 button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(32, 190, 143);
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-top: -80px;
+    transition: 1s;
+}
+.pag2 button:hover{
+
+    background-color: rgb(13, 71, 138);
+    border-radius: 10px;
+}
+
+.pag3{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.sec1 .star3{
+    width: 100px;
+    height: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.star3::before{
+    content: "";
+    background-color: #171036;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    right: 80px;
+
+}
+.star3::after{
+    content: "";
+    background-color: #171036;
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    left: 80px;
+}
+.pag3 .sec1 .par3{
+    margin:20px -45px;
+}
+.pag3 .form{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+     align-items: center; 
+   
+    
+}
+.pag3 .form input, .pag3 .form textarea{
+    width: 500px;
+    height: 50px;
+    border-left:1px solid transparent ;
+    border-right:1px solid transparent ;
+    border-top:1px solid transparent ;
+    border-bottom:1px solid gray ;
+    transition: 1s;
+}
+.pag3 .form input:focus{
+   background-color: #20be8f;
+   color: white ;
+   border-radius: 10px;
+}
+.pag3 .form textarea:focus{
+    background-color: #20be8f;
+    color: white ;
+    border-radius: 10px;
+}
+.pag3 .form label{
+    margin-left:-420px ;
+    padding-top: 40px;
+}
+.pag3 .form button{
+    width: 75px;
+    height: 40px;
+    margin-left: -420px;
+    margin-top: 20px;
+    border: 1px solid  #20be8f;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(32, 190, 143);
+    transition: 1s;
+}
+.pag3 .form button:hover{
+   color: rgb(13, 71, 138);
+   background-color: white;
+   border-radius: 10px;
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    background-color: #171036;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer .foot1{
+    width: 100%;
+    height: 300px;
+    background-color: #171036;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer .foot1 div{
+    width: 350px;
+    height: 100px;
+}
+.footer .foot1 .div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer .foot1 .div1 h2{
+    margin-bottom: 20px;
+    transition: 1s;
+}
+.footer .foot1 .div1 h2:hover{
+    color: #171036;
+    background-color: white;
+    border-radius: 10px;
+}
+.footer .foot1 .div2 h2{
+    margin-bottom: 20px;
+    transition: 1s;
+    width: max-content;
+}
+.footer .foot1 .div2 h2:hover{
+   color: #171036;
+   background-color: white;
+   border-radius: 10px;
+   
+  
+}
+.footer .foot1 .div2{
+      margin-left: 40px;
+      margin-right: -50px;
+}
+
+.footer .foot1 .div2 i{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid white;
+    border-radius: 50%;
+    transition: 1s;
+
+}
+.footer .foot1 .div2 i:hover{
+    background-color: #62549e;
+}
+.smol{
+    margin-left: 5px;
+}
+.footer .foot1 .div3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+   
+
+}
+.footer .foot1 .div3 h2{
+    margin-bottom: 20px;
+    transition: 1s;
+    
+    
+}
+.footer .foot1 .div3 h2:hover{
+    color: #171036;
+    background-color: white;
+    border-radius: 10px;
+}
+.footer .foot1 .div3 p{
+    font-size: 18px;
+
+}
+.footer .foot1 .div3 .parg5{
+    margin-left: 50px; 
+
+} 
+.footer .foot1 .div3 .parg5 a{
+    color: rgb(32, 190, 143);
+}
+.footer .foot2{
+    width: 100%;
+    height: 50px;
+    background-color: #0c091a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    .navbar{width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+    .navbar .nav1{
+       width: 300px ;
+       margin-left: 30px;
+   
+    }
+    
+    .navbar .nav2{
+        width: 300px;
+    }
+    .hero{
+        height: calc(95vh - 60px);
+      
+        
+    }
+    .hero .par{
+        font-size: 45px;
+    }
+    .pag1{
+        width: 100%;
+        height: 600px;
+    
+    }
+    
+    .image1{
+        margin: 0 auto -40px auto;
+    }
+    .image1 div{
+        width: 250px;
+        height: 200px;
+    
+        
+    }
+    .image1 img{
+        width:150px;
+        height: 150px;
+    }
+    
+    .pag3 .form input, .pag3 .form textarea{
+        width: 400px;
+        height: 40px;
+    }
+    .pag3 .form label{
+        margin-left:-320px ;
+       
+    } 
+    .pag2 .par2{
+        margin-top: 0;
+        margin-bottom: -20px;
+    }
+    .pag2 .part1{
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: -35px;
+        
+        
+    
+    }
+    .pag2 .part1 p{
+        width:260px;
+        
+    } 
+    .footer .foot1 div{
+        width: 300px;
+      
+    }
+    .pag3 .form button{
+        margin-right: -90px;
+    }
+}
+@media (min-width: 768px) and (max-width: 992px){
+    
+    .navbar{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar .nav1{
+       margin-left: -40px;
+   
+    }
+    
+    .navbar .nav2{
+        width: 300px;
+    }
+    .hero{
+        height: calc(90vh - 60px);
+      
+        
+    }
+    .hero .par{
+        font-size: 35px;
+    }
+    .larg{
+        width: 100%;
+        height: 650px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+    }
+    
+    .image1{
+        width: 250px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-bottom: 100px !important;
+        
+    }
+    .image1 div{
+        width: 240px;
+        height: 165px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 5px;
+    
+        
+    }
+    
+    .image1 img{
+        
+        width:150px;
+        height: 150px;
+    }
+    
+    .pag3 .form input, .pag3 .form textarea{
+        width: 350px;
+        height: 30px;
+    }
+    .pag3 .form label{
+        margin-left:-260px ;
+       
+    } 
+    .pag2 .par2{
+        margin-top: -10px;
+        margin-bottom: -25px;
+    }
+    .pag2 .part1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 580px;
+        display: block;
+        margin: 0px auto;
+    }
+    .pag2 .part1 p{
+        width:580px;
+        height: 100px;
+        margin-top: -15px;
+        
+    }
+    .pag3{
+        height: 550px;
+    }
+
+    
+    .pag3 .form button{
+        margin-right: -130px;
+    }
+}
+@media (max-width: 768px){
+    .navbar{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar .nav1{
+      
+       margin-left: -40px;
+   
+    }
+    
+    .navbar .nav2{
+        width: 300px;
+    }
+    .hero{
+        height: calc(80vh - 60px);
+      
+        
+    }
+    .hero .par{
+        font-size: 30px;
+
+    }
+    .par-logo{
+        width: 130px;
+        height: 130px;
+        margin-top: 120px;
+    }
+    .hero .logo{
+        width: 130px;
+        height: 150px;
+        bottom: 1px;
+        left:4px;
+    }
+.image1{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: -7px;
+    
+}
+.image1 div{
+    width: 180px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+
+    
+}
+
+
+.image1 img{
+    
+    width:70px;
+    height: 80px;
+}
+.pag3{
+    height: 550px;
+}
+.pag3 .form input, .pag3 .form textarea{
+    width: 300px;
+    height: 35px;
+}
+.pag3 .form label{
+
+   margin-right:-210px ; 
+   
+} 
+.pag3 .form button{
+    margin-right: -200px;
+}
+.pag2 .part1{
+    width: 95%;
+    display: block;
+    margin: -25px auto 0 auto;
+}
+.pag2 .part1 p{
+    width:90%;
+    height: 90px;
+    margin-bottom: 10px;
+ }
+ .pag2 .par2{
+    margin-top: -20px;
+    margin-bottom: -30px;
+}
+.pag2 button{
+   margin-top: -25px;
+}
+.footer .foot1{
+    width: 100%;
+    height: 300px;
+    background-color: #171036;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+
+}
+.footer .foot1 div{
+    width: 200px;
+    height: 70px;
+  
+}
+.footer .foot1 .div2 i{
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 50%;
+
+}
+.footer .foot1 .div2 {
+    margin-left: 35px;
+}
+.footer .foot1 .div3{
+    align-items: start;
+    margin-left: 15px;
+}
+.footer .foot1 .div3 p{
+    font-size: 14px;
+    margin-left: 25px;
+    width: max-content;
+    margin-left: 0;
+
+}
+
+.footer .foot1 .div3 h2{
+    margin-bottom: 10px;
+    font-size: 14px;
+
+    
+    
+}
+.footer .foot1 .div1 {
+    font-size: 14px;
+    margin-left: 15px;
+    align-items: start;
+}
+.footer .foot1 .div1 h2{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .foot1 .div2 h2{
+    font-size: 14px;
+    margin: 5px 0 10px -17px;
+
+}
+.footer .foot1 .div2 .smol{
+    margin-left: -20px;
+}
+.footer .foot1 .div3 .parg5 {
+    margin-left: 0px;
+}
+.footer .foot2{
+    font-size: 14px;
+   padding-left: 15px;
+    align-items: start;
+
+}
+}
+@keyframes hov{
+    from{
+        translate: 10px 10px;
+    }
+}
+@keyframes hov2{
+    from{
+        translate: 10px 10px;
+    }
+}
